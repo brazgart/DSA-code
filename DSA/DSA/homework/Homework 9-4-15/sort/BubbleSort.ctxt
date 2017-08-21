@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=
+comment0.target=BubbleSort()
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ BubbleSort\r\n
+comment1.params=list
+comment1.target=void\ sort(list.List)
+comment1.text=\r\n\ sorting\ items\ in\ a\ list\ -\ doesn't\ swap\ every\ comparison\r\n
+comment2.params=i\ j
+comment2.target=void\ swap(int,\ int)
+comment2.text=\r\n\ swap\ the\ values\ at\ positions\ i\ and\ j\r\n
+numComments=3

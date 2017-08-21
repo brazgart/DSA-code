@@ -1,0 +1,31 @@
+Class documentation
+<---- javadoc command: ---->
+/Users/bergmann/Downloads/BlueJ 3.1.0/BlueJ.app/Contents/PlugIns/jdk/Contents/Home/bin/javadoc
+-author
+-version
+-nodeprecated
+-package
+-noindex
+-notree
+-nohelp
+-nonavbar
+-source
+1.7
+-classpath
+/Users/bergmann/Downloads/BlueJ 3.1.0/BlueJ.app/Contents/Resources/Java/bluejcore.jar:/Users/bergmann/Downloads/BlueJ 3.1.0/BlueJ.app/Contents/Resources/Java/junit-4.8.2.jar:/Volumes/home/DSA/labs/lab00
+-d
+/Volumes/home/DSA/labs/lab00/doc
+-encoding
+UTF-8
+-charset
+UTF-8
+-docletpath
+/Users/bergmann/Downloads/BlueJ 3.1.0/BlueJ.app/Contents/Resources/Java/bjdoclet.jar
+-doclet
+bluej.doclet.doclets.formats.html.HtmlDoclet
+/Volumes/home/DSA/labs/lab00/WordList.java
+<---- end of javadoc command ---->
+Loading source file /Volumes/home/DSA/labs/lab00/WordList.java...
+Constructing Javadoc information...
+Standard Doclet version 1.7.0_21
+Building tree for all the packages and classes...

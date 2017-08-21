@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=left\ right
+comment0.target=Difference(Expr,\ Expr)
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ Difference\r\n
+comment1.params=
+comment1.target=int\ eval()
+comment1.text=\r\n\ @return\ \ the\ value\ of\ this\ Expr\r\n
+comment2.params=obj
+comment2.target=boolean\ equals(java.lang.Object)
+comment2.text=\r\n\ @return\ true\ only\ if\ this\ Expr\ is\ same\ as\ obj\r\n
+comment3.params=
+comment3.target=Expr\ simplify()
+comment3.text=\r\n\ @return\ a\ simplified\ version\ of\ this\ Expr\r\n
+comment4.params=
+comment4.target=java.lang.String\ toString()
+comment4.text=\r\n\ @return\ this\ Expr\ as\ a\ String\r\n
+numComments=5

@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.params=
+comment0.target=ArrayQueue()
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ ArrayQueue\r\n
+comment1.params=value
+comment1.target=void\ add(java.lang.Object)
+comment1.text=\r\n\ \ \r\n\ @param\ Element\ to\ be\ added\ to\ queue\r\n\ @return\ \ \ \ \ void\r\n
+comment2.params=
+comment2.target=java.lang.Object\ remove()
+comment3.params=
+comment3.target=java.lang.Object\ peek()
+comment4.params=
+comment4.target=int\ size()
+comment5.params=
+comment5.target=void\ removeAll()
+comment5.text=Clear\ this\ QueueADT
+comment6.params=
+comment6.target=java.lang.String\ toString()
+comment6.text=\ Return\ the\ elements\ of\ this\ QueueADT\ as\ a\ String,\ separated\ by\ commas\ and\ enclosed\ in\ brackets.\ The\ front\ of\ the\ QueueADT\ should\ be\ the\ first\ element.\r\n\ \ \ \ [front,middle,back]\r\n
+comment7.params=
+comment7.target=boolean\ isEmpty()
+numComments=8

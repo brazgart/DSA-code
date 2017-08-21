@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.params=
+comment0.target=TreeSet()
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ TreeSet\r\n
+comment1.params=value
+comment1.target=boolean\ add(java.lang.Comparable)
+comment2.params=obj
+comment2.target=boolean\ contains(java.lang.Object)
+comment3.params=obj
+comment3.target=boolean\ remove(java.lang.Object)
+comment4.params=
+comment4.target=list.Iterator\ iterator()
+comment5.params=
+comment5.target=java.lang.String\ toString()
+comment6.params=
+comment6.target=int\ size()
+comment7.params=obj
+comment7.target=boolean\ equals(java.lang.Object)
+comment8.params=otherSet
+comment8.target=boolean\ subsetOf(Set)
+comment9.params=other
+comment9.target=Set\ intersection(Set)
+numComments=10

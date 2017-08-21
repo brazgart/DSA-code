@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=value
+comment0.target=BalancedBinarySearchTree(java.lang.Comparable)
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ BalancedBinarySearchTree\r\n
+comment1.params=
+comment1.target=BinaryTree\ rotateWithLeftChild()
+comment2.params=
+comment2.target=BinaryTree\ rotateWithRightChild()
+comment3.params=
+comment3.target=BinaryTree\ doubleWithLeftChild()
+comment4.params=
+comment4.target=BinaryTree\ doubleWithRightChild()
+comment5.params=value
+comment5.target=BinaryTree\ add(java.lang.Comparable)
+comment6.params=
+comment6.target=BinaryTree\ balance()
+numComments=7

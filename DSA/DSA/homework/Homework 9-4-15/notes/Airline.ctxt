@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ main()
+comment1.params=
+comment1.target=void\ getFlights()
+comment2.params=origin\ dest
+comment2.target=list.List\ path(java.lang.String,\ java.lang.String)
+comment2.text=\r\n\ @return\ a\ path\ from\ origin\ to\ dest,\ ar\ an\ empty\ list\ if\ \r\n\ no\ such\ path\ exists\r\n
+comment3.params=origin\ dest
+comment3.target=list.List\ path(Airport,\ Airport)
+comment3.text=\r\n\ @return\ a\ path\ from\ origin\ to\ dest,\ ar\ an\ empty\ list\ if\ \r\n\ no\ such\ path\ exists\r\n
+comment4.params=from
+comment4.target=queue.PriorityQueue\ getDirect(Airport)
+comment4.text=\r\n\ @return\ a\ list\ of\ all\ airports\ which\ can\ be\ reached\ directly\ from\ \r\n\ given\ origin\ and\ has\ not\ been\ visited.\r\n
+comment5.params=
+comment5.target=void\ clearAirports()
+numComments=6

@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ main()
+comment1.params=
+comment1.target=Game()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Game\r\n
+comment2.params=col\ b
+comment2.target=Board\ placeQueen(int,\ Board)
+comment2.text=\r\n\ attempt\ to\ place\ queens\ in\ colums\ col-SIZE-1\ on\ board\ b,\ \r\n\ return\ resulting\ Board,\ or\ null\ if\ not\ possible\r\n
+numComments=3

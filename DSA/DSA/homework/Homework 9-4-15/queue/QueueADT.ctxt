@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.params=value
+comment0.target=void\ add(java.lang.Object)
+comment0.text=\r\n\ Add\ the\ given\ value\ at\ the\ back\ of\ this\ queue\r\n\ \r\n\ @param\ \ \ \ \ \ \ the\ object\ to\ be\ added\ to\ the\ back\ of\ the\ list\r\n\ @return\ \ \ \ \ \ \ \ void\r\n
+comment1.params=
+comment1.target=java.lang.Object\ remove()
+comment1.text=\r\n\ Remove\ the\ value\ at\ the\ front\ of\ the\ Queue\r\n\ \r\n\ @return\ that\ value\r\n\ Pre\:\ This\ queue\ is\ not\ empty\r\n
+comment2.params=
+comment2.target=java.lang.Object\ peek()
+comment2.text=\r\n\ @return\ the\ value\ at\ the\ front\ of\ this\ Queue,\ or\ null\ if\ empty\r\n
+comment3.params=
+comment3.target=int\ size()
+comment3.text=\r\n\ @return\ the\ size\ of\ the\ queue\r\n
+comment4.params=
+comment4.target=void\ removeAll()
+comment4.text=\ \r\n\ Clear\ this\ QueueADT\ \r\n
+comment5.params=
+comment5.target=java.lang.String\ toString()
+comment5.text=\ Return\ the\ elements\ of\ this\ QueueADT\ as\ a\ String,\ \r\n\ separated\ by\ commas\ and\ enclosed\ in\ brackets.\ The\ front\ of\ the\ \r\n\ QueueADT\ should\ be\ the\ first\ element.\r\n\ [front,middle,back]\r\n
+comment6.params=
+comment6.target=boolean\ isEmpty()
+numComments=7

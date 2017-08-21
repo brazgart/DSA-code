@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Driver3()
+comment0.text=\ Get\ a\ list\ of\ English\ words\ (with\ duplicates),\ and\ build\ a\ distribution\r\n\ map\ for\ that\ list.\r\n
+comment1.params=
+comment1.target=void\ checkDistribution()
+comment1.text=\r\n\ Prompt\ the\ user\ for\ words,\ one\ at\ a\ time.\r\n\ Show\ the\ number\ of\ occurrences\r\n\ of\ the\ word\ in\ our\ word\ list.\r\n\ Pre\:\ Distribution\ map\ has\ been\ created.\r\n
+comment2.params=
+comment2.target=void\ distribution()
+comment2.text=\ Build\ a\ distribution\ map\ for\ the\ list\ of\ words\r\n
+comment3.params=word
+comment3.target=int\ getOccurrences(java.lang.String)
+comment3.text=\ @return\ the\ number\ of\ duplicate\ words\ in\ the\ given\ list\r\n
+numComments=4

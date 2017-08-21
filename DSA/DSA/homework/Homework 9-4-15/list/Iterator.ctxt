@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=
+comment0.target=boolean\ hasNext()
+comment0.text=\r\n\ An\ example\ of\ a\ method\ header\ -\ replace\ this\ comment\ with\ your\ own\r\n\ \r\n\ @return\ \ \ \ \ \ true\ only\ if\ there\ are\ more\ items.\r\n
+comment1.params=
+comment1.target=java.lang.Object\ next()
+comment1.text=\r\n\ @return\ the\ next\ value\r\n\ pre\:\ hasNext()\ is\ true.\r\n
+comment2.params=
+comment2.target=void\ remove()
+comment2.text=\r\n\ remove\ the\ last\ value\ obtained.\r\n\ pre\:\ next()\ has\ been\ called\r\n
+numComments=3

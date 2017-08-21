@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=city\ state\ zip
+comment0.target=HomeTown(java.lang.String,\ java.lang.String,\ java.lang.String)
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ HomeTown\r\n
+comment1.params=other
+comment1.target=boolean\ equals(java.lang.Object)
+comment1.text=\r\n\ @return\ \ \ \ \ true\ if\ zip\ codes\ match\ \r\n
+comment2.params=
+comment2.target=java.lang.String\ getZip()
+numComments=3

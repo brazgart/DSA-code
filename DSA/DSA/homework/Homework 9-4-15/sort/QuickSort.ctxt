@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=
+comment0.target=QuickSort()
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ Quicksort\r\n
+comment1.params=list
+comment1.target=void\ sort(list.List)
+comment1.text=\r\n\ An\ example\ of\ a\ method\ -\ replace\ this\ comment\ with\ your\ own\r\n\ \r\n\ @param\ \ y\ \ \ a\ sample\ parameter\ for\ a\ method\r\n\ @return\ \ \ \ \ the\ sum\ of\ x\ and\ y\ \r\n
+comment2.params=start\ end
+comment2.target=void\ qSort(int,\ int)
+comment2.text=\r\n\ Sort\ positions,\ start\ through\ end\r\n
+comment3.params=start\ end
+comment3.target=int\ partitionOld(int,\ int)
+comment3.text=\r\n\ @return\ position\ of\ pivot\ value\ using\ first\ value\r\n
+comment4.params=start\ end
+comment4.target=int\ partition(int,\ int)
+comment4.text=\r\n\ @return\ position\ of\ pivot\ value\ using\ value\ at\ the\ middle\ list\r\n
+numComments=5

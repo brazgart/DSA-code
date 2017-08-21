@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=left\ right
+comment0.target=Expr(Expr,\ Expr)
+comment0.text=\r\n\ Constructor\r\n
+comment1.params=
+comment1.target=Expr()
+comment1.text=\r\n\ default\ constructor\r\n
+comment2.params=
+comment2.target=int\ eval()
+comment2.text=\r\n\ @return\ \ the\ value\ of\ this\ Expr\r\n
+comment3.params=obj
+comment3.target=boolean\ equals(java.lang.Object)
+comment3.text=\r\n\ @return\ true\ only\ if\ this\ Expr\ is\ same\ as\ obj\r\n
+comment4.params=
+comment4.target=Expr\ simplify()
+comment4.text=\r\n\ @return\ a\ simplified\ version\ of\ this\ Expr\r\n
+comment5.params=
+comment5.target=java.lang.String\ toString()
+comment5.text=\r\n\ @return\ this\ Expr\ as\ a\ String\r\n
+numComments=6

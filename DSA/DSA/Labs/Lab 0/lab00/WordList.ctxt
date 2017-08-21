@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=
+comment0.target=WordList()
+comment0.text=\ Generate\ a\ list\ of\ English\ words.\n
+comment1.params=
+comment1.target=java.util.List\ getWordList()
+comment1.text=\ @return\ The\ list\ of\ words\ generated\n\ \ by\ the\ constructor.\n
+numComments=2

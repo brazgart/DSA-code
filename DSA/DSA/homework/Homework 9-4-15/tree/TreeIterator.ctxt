@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.params=tree
+comment0.target=TreeIterator(BinaryTree)
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ TreeIterator\r\n
+comment1.params=
+comment1.target=boolean\ hasNext()
+comment1.text=\r\n\ An\ example\ of\ a\ method\ header\ -\ replace\ this\ comment\ with\ your\ own\r\n\ \r\n\ @return\ \ \ \ \ \ true\ only\ if\ there\ are\ more\ items.\r\n
+comment2.params=
+comment2.target=java.lang.Object\ next()
+comment2.text=\r\n\ @return\ the\ next\ value\r\n\ pre\:\ hasNext()\ is\ true.\r\n
+comment3.params=
+comment3.target=void\ remove()
+comment3.text=\r\n\ remove\ the\ last\ value\ obtained.\r\n\ pre\:\ next()\ has\ been\ called\r\n
+comment4.params=tree
+comment4.target=void\ buildQ(BinaryTree)
+comment5.params=
+comment5.target=java.lang.Object\ getLastGotten()
+numComments=6

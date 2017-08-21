@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.params=
+comment0.target=HeapSort()
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ HeapSort\r\n
+comment1.params=list
+comment1.target=void\ sort(list.List)
+comment1.text=\r\n\ activates\ the\ sorting\ algorithm\ of\ this\ class\r\n\ \ \ \ \r\n\ @param\ \ List<E>\ list\ \r\n
+comment2.params=root
+comment2.target=void\ heapify(int)
+comment3.params=root\ max
+comment3.target=void\ percDown(int,\ int)
+comment4.params=root\ max
+comment4.target=int\ biggerChild(int,\ int)
+comment5.params=p1\ p2
+comment5.target=boolean\ greater(int,\ int)
+comment6.params=i\ j
+comment6.target=void\ swap(int,\ int)
+comment6.text=\r\n\ swap\ the\ values\ at\ positions\ i\ and\ j\r\n
+numComments=7

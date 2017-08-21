@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Recursion()
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ Recursion\r\n
+comment1.params=n
+comment1.target=int\ fact(int)
+comment1.text=\r\n\ An\ example\ of\ a\ method\ -\ replace\ this\ comment\ with\ your\ own\r\n\ \r\n\ @param\ \ y\ \ \ a\ sample\ parameter\ for\ a\ method\r\n\ @return\ \ \ \ \ n\!\ \r\n
+comment2.params=n
+comment2.target=int\ fib(int)
+comment2.text=\r\n\ @return\ nth\ number\ in\ fibonaci\ sequence\r\n
+comment3.params=a\ b
+comment3.target=int\ mult(int,\ int)
+comment3.text=\r\n\ multiply\ numbers\ without\ using\ *\r\n
+comment4.params=s
+comment4.target=boolean\ pal(java.lang.String)
+comment4.text=\r\n\ @return\ true\ only\ if\ given\ string\ is\ a\ palindrome\r\n
+comment5.params=a\ b
+comment5.target=int\ mod(int,\ int)
+comment5.text=\ @return\ the\ remainder\ when\ a\ is\ divided\ by\ b.\r\n\ \ \ \ Pre\:\ \ a\ is\ not\ negative\ and\ b\ is\ positive\r\n
+numComments=6

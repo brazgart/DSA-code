@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Board()
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ Board\r\n
+comment1.params=b
+comment1.target=Board(Board)
+comment2.params=p
+comment2.target=void\ addQueen(Position)
+comment3.params=
+comment3.target=boolean\ check()
+comment3.text=\r\n\ return\ true\ if\ some\ queen\ is\ attacking\ some\ other\ queen\r\n
+comment4.params=
+comment4.target=java.lang.String\ toString()
+numComments=5

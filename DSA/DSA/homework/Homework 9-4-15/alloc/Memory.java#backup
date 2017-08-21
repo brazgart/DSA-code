@@ -1,0 +1,80 @@
+package alloc;
+import list.*;
+
+/**
+ * Simulate teh allocation and freeing of blocks of memory.
+ * 
+ * @author (Dennis Klauder) 
+ * @version (December 2015)
+ */
+public class Memory
+{
+    //Blocks which have been allocated 
+    List <Block> allocated = new LinkedList<Block> ();
+    //Blocks which are available for use.
+    List <Block> free = new LinkedList<Block> ();
+    static final int MAX = 4096;
+
+    public Memory()
+    {
+        free.add(new Block (0,MAX));    //all memory is available
+        //allocated list is empty
+    }
+
+    /**
+     * allocate a block of the given size, if possible
+     * @return its position in memory (address), or -1 if space is not available.
+     * Use First-fit algorithm (Use the first available block which fits)
+     */
+    public int allocate (int size)
+    {
+        Block b, newBlock = null;
+
+        Iterator <Block> freeItty = free.iterator();
+        while (freeItty.hasNext())
+        {
+            b = freeItty.next();
+            if (b.size >=size)
+            {
+                newBlock = new Block (b.start, size);
+                //allocated.add(newBlock);
+                b.start = b.start+size;
+                b.size=b.size - size;
+                if (b.size==0)
+                    freeItty.remove(); //remove from free list
+                return newBlock.start;
+            }
+
+        }
+        return -1;
+    }
+
+    /**
+     * Free, or deallocate, a block which is in use.
+     * return it to the free storage list.
+     * @param start The starting position of the block to be freed.
+     * @throws IllegalArgumentException if there is no block at the given starting position.
+     */
+    public void free (int start)
+    {
+        Block b;
+        //Search list of allocated blocks, for a block which has the given start position
+        Iterator <Block> itty = allocated.iterator();
+        while (itty.hasNext())
+        {
+            b = itty.next();
+            if(b.start==start)
+            {
+                itty.remove();
+                free.add(b);
+                return;
+            }
+        }
+        throw new IllegalArgumentException ("No block with given start: " + start);
+    }
+
+    public String toString()
+    {
+        return "allocated: "+allocated +  " \nfree" + free;
+    }
+}	

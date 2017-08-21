@@ -1,0 +1,92 @@
+package tree;
+import list.*;
+
+/**
+ * Write a description of class BinarySearchTree here.
+ * 
+ * @author (Dennis Klauder) 
+ * @version (10/16/15)
+ */
+public class BinarySearchTree
+<E extends Comparable <E>>
+implements BinaryTree<E>
+
+{
+    // instance variables - replace the example below with your own
+    E value;
+    BinaryTree<E> left = new EmptyBinarySearchTree();
+
+    BinaryTree<E> right = new EmptyBinarySearchTree();
+    /**
+     * Constructor for objects of class BinarySearchTree
+     */
+    public BinarySearchTree(E value)
+    {
+        this.value = value;
+    }
+
+    /**
+     * An example of a method - replace this comment with your own
+     * 
+     * @param  y   a sample parameter for a method
+     * @return     boolean if value is contained in this object
+     *              or its children
+     */
+    public boolean containsKey(E value)
+    {
+        int cmp = value.compareTo(this.value);
+        if(cmp == 0) return true;
+        if(cmp < 0) return left.containsKey(value);
+        return right.containsKey(value);
+    }
+
+    public BinaryTree<E> add(E value)
+    {
+        int cmp=value.compareTo(this.value);
+        if (cmp<0) left = left.add(value);
+        if (cmp>0) right = right.add(value);
+        return this;
+    }
+
+    public E getValue()
+    {
+        return this.value;
+    }
+
+    public E get(E value)
+    {
+        int cmp=value.compareTo(this.value);
+        if (cmp==0) return this.value;
+        if (cmp<0) return left.get(value);
+        return right.get(value);
+    }
+
+    public BinaryTree<E> remove(Object obj)
+    {
+        E value;
+        try
+        {
+            value = (E) obj;
+            int cmp = value.compareTo(this.value);
+            if (cmp ==0) //found it
+            {List <BinaryTree<E>> kids = children();
+                if (kids.size()==0)
+                    return new EmptyBinarySearchTree<E>();
+                if(kids.size()==1)
+                    return kids.get(0);
+                //two children
+                BinaryTree<E> successor=
+                    ((BinarySearchTree<E>)right).smallest();
+                BinaryTree<E> result = 
+                    remove(successor.getValue());
+                result.setValue(successor.getValue());
+                return result;
+            }
+            if (cmp<0) left = left.remove(value);
+            if (cmp>0) right = right.remove(value);
+        }        catch(classCastException cce){}
+        return this;
+
+    }
+
+}

@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=key\ value
+comment0.target=HashEntry(java.lang.Object,\ java.lang.Object)
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ Entry\r\n
+comment1.params=obj
+comment1.target=boolean\ equals(java.lang.Object)
+comment1.text=\r\n\ a\ way\ to\ compare\ if\ two\ entries\ are\ equal\ -\ if\ they\ have\ same\ key\ defined\ as\ equal\r\n\ \r\n\ @param\ \ y\ \ \ another\ entry\ to\ compare\ keys\r\n\ @return\ \ \ \ \ boolean\ if\ determined\ to\ be\ equal\r\n
+comment2.params=
+comment2.target=int\ hashCode()
+comment3.params=
+comment3.target=java.lang.String\ toString()
+comment4.params=
+comment4.target=java.lang.Object\ getKey()
+comment5.params=
+comment5.target=java.lang.Object\ getValue()
+numComments=6

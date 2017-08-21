@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=list
+comment0.target=BinarySearch(list.List)
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ BinarySearch\r\n
+comment1.params=target
+comment1.target=int\ search(java.lang.Comparable)
+comment1.text=\r\n\ return\ position\ of\ the\ target\ in\ the\ given\ list,\ or\ -1\ if\ not\ found\r\n
+comment2.params=start\ end\ target
+comment2.target=int\ binSrch(int,\ int,\ java.lang.Comparable)
+numComments=3

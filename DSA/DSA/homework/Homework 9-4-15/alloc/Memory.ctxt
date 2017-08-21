@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Memory()
+comment1.params=size
+comment1.target=int\ allocate(int)
+comment1.text=\r\n\ allocate\ a\ block\ of\ the\ given\ size,\ if\ possible\r\n\ @return\ its\ position\ in\ memory\ (address),\ or\ -1\ if\ space\ is\ not\ available.\r\n\ Use\ First-fit\ algorithm\ (Use\ the\ first\ available\ block\ which\ fits)\r\n
+comment2.params=start
+comment2.target=void\ free(int)
+comment2.text=\r\n\ Free,\ or\ deallocate,\ a\ block\ which\ is\ in\ use.\r\n\ return\ it\ to\ the\ free\ storage\ list.\r\n\ @param\ start\ The\ starting\ position\ of\ the\ block\ to\ be\ freed.\r\n\ @throws\ IllegalArgumentException\ if\ there\ is\ no\ block\ at\ the\ given\ starting\ position.\r\n
+comment3.params=a
+comment3.target=void\ consolidate(Block)
+comment4.params=
+comment4.target=java.lang.String\ toString()
+numComments=5

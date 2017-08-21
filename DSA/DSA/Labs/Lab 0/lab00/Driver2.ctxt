@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ main()
+comment1.params=words
+comment1.target=int\ duplicates(java.util.List)
+comment1.text=\ @return\ the\ number\ of\ duplicate\ words\ in\ the\ given\ list\r\n
+numComments=2

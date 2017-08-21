@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=value
+comment0.target=java.lang.Object\ push(java.lang.Object)
+comment0.text=\r\n\ Add\ a\ value\ to\ the\ top\ of\ this\ stack\r\n\ \r\n\ @return\ \ \ \ \ \ \ \ the\ value\ pushed\r\n
+comment1.params=
+comment1.target=java.lang.Object\ pop()
+comment1.text=\ \r\n\ remove\ the\ top\ value\ of\ the\ stack\r\n\ @return\ the\ value\ removed\r\n
+comment2.params=
+comment2.target=java.lang.Object\ peek()
+comment2.text=\r\n\ @return\ the\ top\ value\r\n
+comment3.params=
+comment3.target=boolean\ isEmpty()
+comment3.text=\ \r\n\ @return\ true\ only\ if\ this\ Stack\ is\ empty\ \r\n
+comment4.params=
+comment4.target=void\ clear()
+comment4.text=\ \r\n\ Remove\ all\ items\ from\ this\ Stack\ \r\n
+comment5.params=other
+comment5.target=boolean\ equals(java.lang.Object)
+comment5.text=\ \r\n\ @return\ true\ only\ if\ this\ Stack\ is\ equal\ to\ the\ parameter,\ other\ \r\n
+numComments=6

@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ main()
+comment1.params=words\ min
+comment1.target=void\ longWords(java.util.List,\ int)
+comment1.text=\ Remove\ all\ words\ whose\ length\ is\ less\ than\ the\ \r\n\ \ given\ min.\r\n
+comment2.params=words
+comment2.target=void\ insertions(java.util.List)
+comment2.text=\ Insert\ some\ new\ strings\ at\ position\ 2\ into\ the\ given\ list.\r\n\ \ (Do\ not\ change\ this\ method)\r\n\ \r\n
+numComments=3
